@@ -1,0 +1,6 @@
+s = input("Введите строку: ")
+k = input("Введите символ для рамки: ")
+border = k * (len(s) + 4)
+print(border)
+print(f"{k} {s} {k}")
+print(border)
